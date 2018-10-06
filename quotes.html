@@ -2,8 +2,31 @@
 <html>
 <head>
 <title> Submit an Eric Quote </title>
+<script type="text/javascript" src="main.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-
+<font face="Arial">
+<div class="top-navigation-bar">
+  <a href="index.html"> Generator </a>
+  <a href="https://en.wikipedia.org/wiki/Oppression#Institutionalized_oppression"> Structural Oppression? </a>
+  <a class="active" href="quotes.html"> Have a Quote? </a>
+</div>
+<div style="text-align:center">
+<br>
+<h1 class="big-text"> Submit an Eric Quote </h1>
+<br>
+<p class="tiny-text"> <i> Has Eric said anything rather recently that you thought would be great material for this website? Give me a shout. </i> </p>
+<br>
+<br>
+<form action="https://formspree.io/ewbrowne743@gmail.com"
+      method="POST">
+    <input type="text" placeholder="Your name" name="name">
+    <input type="email" placeholder="Your email" name="_replyto">
+    <input type="quote" placeholder="Your quote" name="quote">
+    <input type="submit" value="Send">
+</form>
+</div>
+</font>
 </body>
 </html>
