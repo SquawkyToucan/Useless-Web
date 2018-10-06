@@ -17,6 +17,8 @@ function randomNumber(min,max) {
 }
 
 function giveVirus() {
-  alert("You win a million dollars woohoo");
+  while(true) {
+    alert("You win a million dollars woohoo");
+  }
   return "You're our one millionth visitor!";
 }
