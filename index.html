@@ -3,20 +3,25 @@
 <head>
 <title> Eric Quote Generator </title>
 <script type="text/javascript" src="main.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 <font face="Arial">
-<a href="index.html"> Generator </a>
-<a href="https://en.wikipedia.org/wiki/Oppression#Institutionalized_oppression"> Structural Oppression? </a>
-<a href="quotes.html"> Have a Quote? </a>
-<div style="text-align:center;border:1px solid blue">
-<h1> Eric Quote Generator </h1>
+<div class="top-navigation-bar">
+  <a class="active" href="index.html"> Generator </a>
+  <a href="https://en.wikipedia.org/wiki/Oppression#Institutionalized_oppression"> Structural Oppression? </a>
+  <a href="quotes.html"> Have a Quote? </a>
 </div>
 <div style="text-align:center">
 <br>
-<p> <i> Is there enough Eric in your life? If you feel that you have in any way an Eric deficiency, generate a quote from him and you'll feel that he's there with you. </i> </p>
+<h1 class="big-text"> Eric Quote Generator </h1>
 <br>
-<button onclick="generateQuote()"> Generate a quote! </button>
+<p class="tiny-text"> <i> Is there enough Eric in your life? If you feel that you have in any way an Eric deficiency, generate a quote from him and you'll feel that he's there with you. </i> </p>
+<br>
+<br>
+<button class="button" onclick="document.getElementById('textelement').innerHTML = generateQuote();"> Generate a quote! </button>
+<br><br><br><br>
+<h1 id="textelement"> </h1>
 </div>
 </font>
 </body>
